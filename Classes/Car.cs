@@ -8,9 +8,9 @@ namespace Classes
 {
     public class Car
     {
-        public string Carmake;
-        public string CarModel;
-        public int CarYear;
-       
+        public string Carmake { get; set; }
+        public string CarModel { get; set; }
+        public int CarYear { get; set; }
+
     }
 }
